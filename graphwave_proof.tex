@@ -1,0 +1,37 @@
+\documentclass{article}
+\author{xuyou}
+\title{Proof For Prop 1 and 2 in GraphWave}
+\usepackage{xeCJK}
+\usepackage{bm}
+\begin{document}
+\maketitle
+\section{note for prop 1} 
+\subsection{equation 1}
+\begin{center}
+\[
+\sum _ { m=1  }^N\left( \Psi _ { m a } ^ { ( s ) } \right) ^ { 2 }
+=\Psi_{aa}^{(2s)}
+\]
+\end{center}
+because left side equal \bm{$1_a^T$}$Ug(s\Lambda)g(s\Lambda)U^T$\bm{$1_a$}=
+$\Psi_{aa}^{(2s)}$
+\subsection{equation 2}
+\begin{center}
+
+\[
+\sum_{m=1}^N \Psi_{ma}^{(s)}=1 \quad s\ for\ any\ value
+\]
+\end{center}
+%\paragraph{}
+because 1 is the eigenvalue of $\Psi^{(s)}$ for eigenvector \textbf{1}
+\section{note for prop 2} 
+$\Psi^s$ eigenvector for eigenvalue 1
+\begin{center}
+$U_{.1}=\frac{1}{\sqrt{N}}$
+\end{center}
+so\begin{center}
+$\left|\Psi_{aa}^{(s+1)}-\frac{1}{N}\right|=\left|\sum_{j=1}^Ne^{-\lambda_j(s+1)}U_{ja}^2-\frac{1}{N}\right|=\left| \sum _ { j = 2 } ^ { N } e ^ { - \lambda _ { j } ( s + 1 ) } U _ { j a } ^ { 2 } \right|\leq
+\left| \sum _ { j = 2 } ^ { N }e^{\lambda_2s} e ^ { - \lambda _ { j } s  } U _ { j a } ^ { 2 } \right|=e ^ { - \lambda _ { 2 } } \left| \Psi _ { a a } ^ { ( s ) } - \frac { 1 } { N } \right|$
+
+\end{center} 
+\end{document}
